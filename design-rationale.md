@@ -90,3 +90,12 @@ The portfolio currently focuses on a single month. I would explore lightweight m
 #### 4. Mobile Reading Experience
 
 Since employees may review portfolios on mobile devices, I would test the layout on smaller screens and optimize the reading flow for quick consumption.
+
+---
+
+### Tradeoffs Considered
+
+I intentionally removed a dedicated "Growth Opportunities" section and merged growth signals into the "Looking Forward" section. This reduced cognitive load and kept the portfolio focused on a simple narrative: performance, challenges, and future direction.
+
+I also chose not to surface every available metric. The backend contains significantly more data, but displaying all of it would recreate the dashboard problem the redesign is trying to solve.
+
