@@ -71,31 +71,19 @@ This hierarchy mirrors how people naturally reflect on their work:
 By organizing information in this order, the portfolio becomes easier to read and more meaningful for employees, supervisors, mentors, and HR stakeholders.
 
 ---
-### What I Would Explore With More Time
+## Tradeoffs Considered
 
-#### 1. Progressive Disclosure
+I intentionally reduced the number of visible sections by merging growth-related insights into the "Looking Forward" section. This keeps the portfolio focused on a simple flow: performance, challenges, and future direction.
 
-Different audiences consume the portfolio differently.
-
-Employees prefer a quick summary and career guidance, while supervisors and HR may want deeper evidence. I would explore collapsible evidence sections so that detailed KPI, deliverable, and constraint data remains available without overwhelming the primary narrative.
-
-#### 2. Career Progression Visualization
-
-The current design presents future progression in a simplified format. With more time, I would explore a visual career runway showing current position, next milestone, and projected advancement date to make career growth easier to understand at a glance.
-
-#### 3. Monthly Comparison
-
-The portfolio currently focuses on a single month. I would explore lightweight month-over-month comparisons to highlight momentum and improvement rather than static performance scores.
-
-#### 4. Mobile Reading Experience
-
-Since employees may review portfolios on mobile devices, I would test the layout on smaller screens and optimize the reading flow for quick consumption.
+I also chose not to display every available metric. The backend contains significantly more data, but surfacing all of it would recreate the dashboard problem the redesign is trying to solve.
 
 ---
 
-### Tradeoffs Considered
+## Future Improvements
 
-I intentionally removed a dedicated "Growth Opportunities" section and merged growth signals into the "Looking Forward" section. This reduced cognitive load and kept the portfolio focused on a simple narrative: performance, challenges, and future direction.
+If given more time, I would explore:
 
-I also chose not to surface every available metric. The backend contains significantly more data, but displaying all of it would recreate the dashboard problem the redesign is trying to solve.
-
+* Expandable evidence sections for supervisors and HR.
+* A visual career progression timeline.
+* Month-over-month performance comparison.
+* Mobile-first optimization for quick review.
